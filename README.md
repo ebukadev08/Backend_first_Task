@@ -20,6 +20,17 @@ GET /me
 }
 
 
-##SETUP
+## Setup
 
-git clone
+git clone https://github.com/ebukadev08/Backend_first_Task.git
+cd backend_first_Task
+npm install
+npm start
+
+
+## Dependencies
+epress
+axios
+cors
+dotenv
+
