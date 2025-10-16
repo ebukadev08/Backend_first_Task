@@ -21,7 +21,7 @@ app.get("/me", async (req, res) => {
         name: "Ebuka Oparaochaeke",
         stack: "Nodejs/Express",
       },
-      timestamp: new Date().toISOString().replace('Z', '+01:00'),
+      timestamp: new Date().toISOString(),
       fact: response.data.fact,
     };
     res.status(200).json(data);
